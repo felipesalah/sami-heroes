@@ -1,0 +1,41 @@
+@import '../../../variables.scss';
+
+.sami-header {
+    height: 60px;
+    width: 600px;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgray;
+    &_btn {
+        height: 60px;
+        font-size: 40px;
+        display: inline-block;
+        color: $primary;
+        cursor: pointer;
+    }
+    &_title {
+        position: absolute;
+        left: 50%;
+        top: 0;
+    }
+    h3 {
+        color: $title-color;
+        margin: 0;
+        display: inline-block;
+        line-height: 60px;
+        text-align: center;
+        font-size: 26px;
+        position: relative;
+        left: -50%;
+    }
+    .thin-txt {
+        font-weight: 100;
+        color: $text-color;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sami-header {
+        width: 100%;
+    }
+}
