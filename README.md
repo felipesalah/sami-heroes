@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SAMI - Teste Front-end
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O objetivo do teste é poder buscar, listar e detalhar super-heróis se comunicando com a API https://superheroapi.com/.
 
-### `npm start`
+## Rodando o APP
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para fazer, instale as dependências do projeto:
+```
+npm install
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Depois rode o projeto com:
+```
+npm start
+```
 
-### `npm test`
+O servidor deve iniciar automaticamente. Caso contrário, você pode acessar o link:
+- [localhos:3000](http://localhost:3000)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Agora é so digitar o nome do seu super-herói favorito e apertar "Enter" com toda sua força para assistir o React e Redux fazer todo a mágica.
 
-### `npm run build`
+## Observações
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* No descritivo do teste foi solicitado filtros por poderes, porém, a API https://superheroapi.com/ não possui tais informações. Elas lista informação de poderes baseadas em pontuações. Não se caracterizam dados para filtragem.
+* O projeto foi configurado para trabalhar com Redux DevTools! Então caso não possua a extensão do chrome eu aconselho seriamente você a instalar para que possa acompanhar a atualização dos Estados em tempo real. Permitindo melhor depuração do código.
+* É extremamente necessário que você instale uma extensão do chrome para dar 'bypass' no CORS. A api https://superheroapi.com/ não possui consiguração de CORS impossibilitando o funcionamento no APP. Se não der o bypass o APP não funcionará. Recomendo a extensão: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **This repository is new. I lost my email password and ended up losing access to my old github @delfelipe.**
